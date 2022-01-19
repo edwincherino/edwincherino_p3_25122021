@@ -1,0 +1,59 @@
+// checkbox apparition sur le côté
+
+.menu__choice:hover .menu__choice__more__checkbox {
+  width: 70px;
+  transition-duration: 1200ms;
+}
+
+.menu__choice:hover i {
+  transform: rotate(360deg);
+  transition-duration: 800ms;
+}
+
+// delai d'appartion
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.first {
+  animation: delay 3s ease-in-out;
+}
+
+.second {
+  animation: delay 4s ease-in-out;
+}
+
+.third {
+  animation: delay 5s ease-in-out;
+}
+
+// heart
+
+.restaurant__list__heart:hover .full-heart {
+  transform: scale(1);
+}
+
+.restaurant__list__heart:hover .empty-heart {
+  background: linear-gradient($color-primary, $color-secondary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+// menu coeur
+
+.menu__heart:hover .full-heart {
+  transform: scale(1);
+}
+
+.menu__heart:hover .empty-heart {
+  background: linear-gradient($color-primary, $color-secondary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
