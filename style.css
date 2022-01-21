@@ -169,6 +169,7 @@ ul a {
           align-items: center;
   -webkit-animation: loader__end 0.5s ease forwards 3s;
           animation: loader__end 0.5s ease forwards 3s;
+  opacity: 0.9;
 }
 
 .loader__spinner {
